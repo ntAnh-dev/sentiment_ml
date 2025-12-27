@@ -6,4 +6,4 @@ stages:
       - data/train.csv
       - data/test.csv
     outs:
-      - models/model.pkl
+      - models/best_model.joblib

@@ -1,0 +1,25 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python src/train_compare.py
+    deps:
+    - path: data/test.csv
+      hash: md5
+      md5: ce12d03286073c76e037eec81f0277ec
+      size: 67
+      isexec: true
+    - path: data/train.csv
+      hash: md5
+      md5: da0536da50deb48eec6613a6b48092b4
+      size: 148
+      isexec: true
+    - path: src/train_compare.py
+      hash: md5
+      md5: 0801de0cf950f6671d6635bd4b45442d
+      size: 2252
+      isexec: true
+    outs:
+    - path: models/best_model.joblib
+      hash: md5
+      md5: d90deb434b1785a11575a746dc87efcb
+      size: 4704
