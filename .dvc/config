@@ -1,0 +1,4 @@
+[core]
+    remote = sshremote
+['remote "sshremote"']
+    url = ssh://user@server:/data/dvc_store
