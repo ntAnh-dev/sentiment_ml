@@ -10,8 +10,8 @@ stages:
       isexec: true
     - path: data/train.csv
       hash: md5
-      md5: da0536da50deb48eec6613a6b48092b4
-      size: 148
+      md5: bb9779119200f51b5488d408f9f5a935
+      size: 172
       isexec: true
     - path: src/train_compare.py
       hash: md5
@@ -21,5 +21,5 @@ stages:
     outs:
     - path: models/best_model.joblib
       hash: md5
-      md5: d90deb434b1785a11575a746dc87efcb
-      size: 4704
+      md5: d55223c34942447acc9e018d2f73d36c
+      size: 4163
