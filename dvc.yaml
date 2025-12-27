@@ -1,8 +1,9 @@
 stages:
   train:
-    cmd: python src/train.py
+    cmd: python src/train_compare.py
     deps:
-      - src/train.py
+      - src/train_compare.py
       - data/train.csv
+      - data/test.csv
     outs:
       - models/model.pkl
